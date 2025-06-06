@@ -1,0 +1,91 @@
+# Get New Subclasses Stuff
+
+Bladesong
+Osi.AddSpell(GetHostCharacter(), "Shout_Bladesong")
+Osi.AddBoosts(GetHostCharacter(), "ActionResource(Bladesong,2,0)", "", GetHostCharacter())
+
+Cheeky Tipple:
+AddPassive(GetHostCharacter(),"CheekyTipple")
+
+Drunken technique:
+Osi.AddSpell(GetHostCharacter(), "Target_DrunkenTechnique")
+
+Prey's scent:
+AddPassive(GetHostCharacter(),"HuntersMark_Swarmkeeper")
+
+Swarm Keeper:
+AddPassive(GetHostCharacter(),"Swarmkeeper_Bee")
+Osi.RemovePassive(GetHostCharacter(), "Swarmkeeper_Bee")
+
+AddPassive(GetHostCharacter(),"Swarmkeeper_Jellyfish")
+Osi.RemovePassive(GetHostCharacter(), "Swarmkeeper_Jellyfish")
+
+AddPassive(GetHostCharacter(),"Swarmkeeper_Moth")
+Osi.RemovePassive(GetHostCharacter(), "Swarmkeeper_Moth")
+
+Giant's rage:
+Osi.AddSpell(GetHostCharacter(), "Shout_Rage_Giant")
+
+# Get bombs:
+
+Early Act 1:
+TemplateAddTo("640302a8-d841-44d6-996d-2addda644306", GetHostCharacter(), 10)
+TemplateAddTo("0b1aa718-fe45-4e4c-8811-ced51c581075", GetHostCharacter(), 10)
+TemplateAddTo("3850ec1a-d951-45b7-9363-dc82e20bd28a", GetHostCharacter(), 10)
+TemplateAddTo("1fd5d25c-806e-44ea-9f52-20df63a44e98", GetHostCharacter(), 10)
+TemplateAddTo("e2968a2e-bc83-4d50-99ef-39ce78d2d630", GetHostCharacter(), 10)
+TemplateAddTo("249ff64e-818b-4dc8-919b-7f297f64a2a3", GetHostCharacter(), 10)
+TemplateAddTo("10b6acda-aa4e-46b1-aa9a-e45ab914a28d", GetHostCharacter(), 10)
+TemplateAddTo("278271f9-3fbc-4cf7-a5dc-b36527f521b2", GetHostCharacter(), 10)
+TemplateAddTo("c3236e6e-21e4-4e39-a5b4-fda105d8ce3f", GetHostCharacter(), 10)
+
+TemplateAddTo("5e282d02-6a10-44cb-9737-9d52aab0701c", GetHostCharacter(), 20)
+TemplateAddTo("cbc47f2b-b88a-4bd8-99cd-aacc2dc2ea44", GetHostCharacter(), 20)
+TemplateAddTo("df5f8cbf-42c5-4c0d-a0ec-ce5046474d8e", GetHostCharacter(), 20)
+TemplateAddTo("6008231b-9f5a-44f6-8050-14586b7626fd", GetHostCharacter(), 20)
+TemplateAddTo("c3236e6e-21e4-4e39-a5b4-fda105d8ce3f", GetHostCharacter(), 20)
+TemplateAddTo("9320005f-18c6-4c2b-be7f-e168d3b15573", GetHostCharacter(), 20)
+TemplateAddTo("a4d98266-948b-4467-96cd-6a316f37ceda", GetHostCharacter(), 20)
+
+# Get Arrows:
+
+Common ones
+TemplateAddTo("0bfb72d2-0e8e-4d16-aeae-3159b0d4b195", GetHostCharacter(), 1)
+TemplateAddTo("9a142fae-bcea-4e88-a407-16d3b27468b9", GetHostCharacter(), 1)
+TemplateAddTo("2e297d80-823b-4200-926e-6ca23f488090", GetHostCharacter(), 1)
+TemplateAddTo("1b0f095b-cb22-4bf9-aecf-4e5a26504ec8", GetHostCharacter(), 1)
+TemplateAddTo("844c19ce-9e8f-4119-8856-8fa2029461b1", GetHostCharacter(), 1)
+TemplateAddTo("a61c8248-1595-450f-bcc9-2ed1d9853739", GetHostCharacter(), 1)
+TemplateAddTo("a0985797-4ec7-475c-8e11-0361e387f39a", GetHostCharacter(), 1)
+
+# Get Coating
+
+TemplateAddTo("bd118cc0-eb90-412d-8229-6749f42df5c6", GetHostCharacter(), 1)
+TemplateAddTo("28645376-e6e8-436a-8e9a-c62877fae07d", GetHostCharacter(), 1)
+TemplateAddTo("3450ff5c-4e58-402e-9321-3509da99f0a4", GetHostCharacter(), 1)
+TemplateAddTo("54bc368a-d303-4e40-9f64-e2a72bf4fac0", GetHostCharacter(), 1)
+TemplateAddTo("de7ec8fe-d871-4696-b788-64a82f73acd8", GetHostCharacter(), 1)
+TemplateAddTo("420ac079-8d92-46fc-b0bd-91c83f8ab908", GetHostCharacter(), 1)
+TemplateAddTo("4678c044-06b2-4ec9-9ae3-126983c95b91", GetHostCharacter(), 1)
+TemplateAddTo("17c22435-df32-4bc5-b50b-5630c6d5c8a1", GetHostCharacter(), 1)
+TemplateAddTo("17c22435-df32-4bc5-b50b-5630c6d5c8a1", GetHostCharacter(), 1)
+TemplateAddTo("5865caed-4a5d-45b7-b365-1113334a8e7b", GetHostCharacter(), 1)
+TemplateAddTo("955d3880-3d10-4fb5-845b-96b6b52aef9a", GetHostCharacter(), 1)
+TemplateAddTo("785273d9-20b4-4e87-b540-c5873e6f9d12", GetHostCharacter(), 1)
+TemplateAddTo("f528a334-bdb3-4cf1-b74c-0e08942daeb1", GetHostCharacter(), 1)
+TemplateAddTo("d990fefe-e0f3-46ba-915e-35aebc6c6599", GetHostCharacter(), 1)
+TemplateAddTo("721953a5-f665-4bc1-8cb9-647832fe4798", GetHostCharacter(), 1)
+TemplateAddTo("721953a5-f665-4bc1-8cb9-647832fe4798", GetHostCharacter(), 1)
+TemplateAddTo("3383e241-4d1c-41ad-bc81-fc548fa9062d", GetHostCharacter(), 1)
+TemplateAddTo("08789f74-3f63-4e7c-8288-b8d873542c15", GetHostCharacter(), 1)
+TemplateAddTo("bb750807-895b-468d-81e1-4378797d11ca", GetHostCharacter(), 1)
+TemplateAddTo("01985597-fceb-47d1-93ae-9cc9928ed9e7", GetHostCharacter(), 1)
+TemplateAddTo("3e4ce3e8-fbae-4e78-9198-e4c15485a928", GetHostCharacter(), 1)
+TemplateAddTo("56e531e9-78e4-430b-bc98-611c1b1ccd08", GetHostCharacter(), 1)
+TemplateAddTo("b0385b93-f525-4740-8126-471a76fa31a2", GetHostCharacter(), 1)
+TemplateAddTo("f58b42b0-ab8e-4342-b7e2-daa61ee97628", GetHostCharacter(), 1)
+TemplateAddTo("8b5f7965-6cd1-42c1-8449-c6562a270ad9", GetHostCharacter(), 1)
+TemplateAddTo("6db9ed3d-2d72-43ad-a2b8-02365728f29f", GetHostCharacter(), 1)
+TemplateAddTo("e4f7cb7f-1cb3-411b-b078-f4ac25b750a8", GetHostCharacter(), 1)
+TemplateAddTo("eca393b0-3f8e-4862-814b-9e236a0d4129", GetHostCharacter(), 1)
+TemplateAddTo("eca393b0-3f8e-4862-814b-9e236a0d4129", GetHostCharacter(), 1)
