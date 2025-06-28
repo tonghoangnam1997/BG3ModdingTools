@@ -3,11 +3,21 @@
 Blessing Of The Trickster:
 Osi.AddSpell(GetHostCharacter(), "Target_BlessingOfTheTrickster")
 
+Touch of Death:
+AddPassive(GetHostCharacter(),"TouchOfDeath")
+
 Eyes of the dark/ Strength of the grave:
 AddPassive(GetHostCharacter(),"EyesOfTheDark")
 AddPassive(GetHostCharacter(),"StrengthOfTheGrave")
 
-Bladesong
+Eyes of the dark Darkness:
+Osi.AddSpell(GetHostCharacter(), "Target_Darkness_Sorcerer")
+
+Combat Wild Shape:
+Osi.AddSpell(GetHostCharacter(), "Shout_WildShape_Combat")
+Osi.AddSpell(GetHostCharacter(), "Shout_WildShape_Combat_Bear_Polar")
+
+Bladesong:
 Osi.AddSpell(GetHostCharacter(), "Shout_Bladesong")
 Osi.AddBoosts(GetHostCharacter(), "ActionResource(Bladesong,2,0)", "", GetHostCharacter())
 
@@ -16,6 +26,10 @@ AddPassive(GetHostCharacter(),"CheekyTipple")
 
 Drunken technique:
 Osi.AddSpell(GetHostCharacter(), "Target_DrunkenTechnique")
+
+Intoxicating Strike/Life of the party:
+Osi.AddSpell(GetHostCharacter(), "Target_IntoxicatingStrike")
+AddPassive(GetHostCharacter(),"LifeOfTheParty")
 
 Prey's scent:
 AddPassive(GetHostCharacter(),"HuntersMark_Swarmkeeper")
@@ -29,6 +43,11 @@ Osi.RemovePassive(GetHostCharacter(), "Swarmkeeper_Jellyfish")
 
 AddPassive(GetHostCharacter(),"Swarmkeeper_Moth")
 Osi.RemovePassive(GetHostCharacter(), "Swarmkeeper_Moth")
+
+Dirty Trick:
+Osi.AddSpell(GetHostCharacter(), "Target_DirtyTrick_Disarm")
+Osi.AddSpell(GetHostCharacter(), "Target_DirtyTrick_Blind")
+Osi.AddSpell(GetHostCharacter(), "Target_DirtyTrick_Vicious")
 
 Giant's rage:
 Osi.AddSpell(GetHostCharacter(), "Shout_Rage_Giant")
@@ -45,6 +64,10 @@ Osi.AddSpell(GetHostCharacter(), "Projectile_ArcaneShot_GraspingArrow")
 Osi.AddSpell(GetHostCharacter(), "Zone_ArcaneShot_PiercingArrow")
 Osi.AddSpell(GetHostCharacter(), "Projectile_ArcaneShot_SeekingArrow")
 Osi.AddSpell(GetHostCharacter(), "Projectile_ArcaneShot_ShadowArrow")
+
+Swashbuckler Lvl.3:
+AddPassive(GetHostCharacter(),"FancyFootwork")
+AddPassive(GetHostCharacter(),"RakishAudacity")
 
 # Get bombs:
 
