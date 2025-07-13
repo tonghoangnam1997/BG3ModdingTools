@@ -1,77 +1,5 @@
-# Get New Subclasses Stuff
+## All bombs:
 
-Blessing Of The Trickster:
-Osi.AddSpell(GetHostCharacter(), "Target_BlessingOfTheTrickster")
-
-Touch of Death:
-AddPassive(GetHostCharacter(),"TouchOfDeath")
-
-Eyes of the dark/ Strength of the grave:
-AddPassive(GetHostCharacter(),"EyesOfTheDark")
-AddPassive(GetHostCharacter(),"StrengthOfTheGrave")
-
-Eyes of the dark Darkness:
-Osi.AddSpell(GetHostCharacter(), "Target_Darkness_Sorcerer")
-
-Combat Wild Shape:
-Osi.AddSpell(GetHostCharacter(), "Shout_WildShape_Combat")
-Osi.AddSpell(GetHostCharacter(), "Shout_WildShape_Combat_Bear_Polar")
-
-Bladesong:
-Osi.AddSpell(GetHostCharacter(), "Shout_Bladesong")
-Osi.AddBoosts(GetHostCharacter(), "ActionResource(Bladesong,2,0)", "", GetHostCharacter())
-
-Cheeky Tipple:
-AddPassive(GetHostCharacter(),"CheekyTipple")
-
-Drunken technique:
-Osi.AddSpell(GetHostCharacter(), "Target_DrunkenTechnique")
-
-Intoxicating Strike/Life of the party:
-Osi.AddSpell(GetHostCharacter(), "Target_IntoxicatingStrike")
-AddPassive(GetHostCharacter(),"LifeOfTheParty")
-
-Prey's scent:
-AddPassive(GetHostCharacter(),"HuntersMark_Swarmkeeper")
-
-Swarm Keeper:
-AddPassive(GetHostCharacter(),"Swarmkeeper_Bee")
-Osi.RemovePassive(GetHostCharacter(), "Swarmkeeper_Bee")
-
-AddPassive(GetHostCharacter(),"Swarmkeeper_Jellyfish")
-Osi.RemovePassive(GetHostCharacter(), "Swarmkeeper_Jellyfish")
-
-AddPassive(GetHostCharacter(),"Swarmkeeper_Moth")
-Osi.RemovePassive(GetHostCharacter(), "Swarmkeeper_Moth")
-
-Dirty Trick:
-Osi.AddSpell(GetHostCharacter(), "Target_DirtyTrick_Disarm")
-Osi.AddSpell(GetHostCharacter(), "Target_DirtyTrick_Blind")
-Osi.AddSpell(GetHostCharacter(), "Target_DirtyTrick_Vicious")
-
-Giant's rage:
-Osi.AddSpell(GetHostCharacter(), "Shout_Rage_Giant")
-
-Boot of the Giants:
-Osi.AddSpell(GetHostCharacter(), "Target_BootOfTheGiants")
-
-Arcane Shots:
-Osi.AddSpell(GetHostCharacter(), "Projectile_ArcaneShot_BanishingArrow")
-Osi.AddSpell(GetHostCharacter(), "Projectile_ArcaneShot_BeguilingArrow")
-Osi.AddSpell(GetHostCharacter(), "Projectile_ArcaneShot_BurstingArrow")
-Osi.AddSpell(GetHostCharacter(), "Projectile_ArcaneShot_EnfeeblingArrow")
-Osi.AddSpell(GetHostCharacter(), "Projectile_ArcaneShot_GraspingArrow")
-Osi.AddSpell(GetHostCharacter(), "Zone_ArcaneShot_PiercingArrow")
-Osi.AddSpell(GetHostCharacter(), "Projectile_ArcaneShot_SeekingArrow")
-Osi.AddSpell(GetHostCharacter(), "Projectile_ArcaneShot_ShadowArrow")
-
-Swashbuckler Lvl.3:
-AddPassive(GetHostCharacter(),"FancyFootwork")
-AddPassive(GetHostCharacter(),"RakishAudacity")
-
-# Get bombs:
-
-Early Act 1:
 TemplateAddTo("640302a8-d841-44d6-996d-2addda644306", GetHostCharacter(), 10)
 TemplateAddTo("0b1aa718-fe45-4e4c-8811-ced51c581075", GetHostCharacter(), 10)
 TemplateAddTo("3850ec1a-d951-45b7-9363-dc82e20bd28a", GetHostCharacter(), 10)
@@ -107,7 +35,7 @@ TemplateAddTo("21756f85-a506-4e80-bdec-50bdbcbacab4", GetHostCharacter(), 10)
 
 
 
-# All Arrows:
+## All Arrows:
 
 TemplateAddTo("0bfb72d2-0e8e-4d16-aeae-3159b0d4b195", GetHostCharacter(), 1)
 TemplateAddTo("9a142fae-bcea-4e88-a407-16d3b27468b9", GetHostCharacter(), 1)
@@ -131,7 +59,7 @@ TemplateAddTo("1545f451-3fc5-4c1b-970e-572f9ace630c", GetHostCharacter(), 1)
 TemplateAddTo("437835b4-0d13-47b7-8aca-5da4f948783b", GetHostCharacter(), 1)
 TemplateAddTo("3c2c6a61-e348-4222-9ba3-58a4d49d558c", GetHostCharacter(), 1)
 
-# All Coating
+## All Coating
 
 TemplateAddTo("bd118cc0-eb90-412d-8229-6749f42df5c6", GetHostCharacter(), 1)
 TemplateAddTo("28645376-e6e8-436a-8e9a-c62877fae07d", GetHostCharacter(), 1)
@@ -163,7 +91,7 @@ TemplateAddTo("e4f7cb7f-1cb3-411b-b078-f4ac25b750a8", GetHostCharacter(), 1)
 TemplateAddTo("eca393b0-3f8e-4862-814b-9e236a0d4129", GetHostCharacter(), 1)
 TemplateAddTo("eca393b0-3f8e-4862-814b-9e236a0d4129", GetHostCharacter(), 1)
 
-Get Potions:
+## All Potions:
 TemplateAddTo("f0c7d8bb-85e9-4937-96bb-49ba69d28631", GetHostCharacter(), 1)
 TemplateAddTo("abd0135f-8082-4005-820c-a42a101a39d8", GetHostCharacter(), 1)
 TemplateAddTo("212ca846-4766-4370-8847-454e59751598", GetHostCharacter(), 1)
@@ -211,4 +139,4 @@ TemplateAddTo("e6490cc8-7f81-4aac-95e8-a58ce5e88a31", GetHostCharacter(), 1)
 TemplateAddTo("c69fb092-2f4f-4688-82b6-7d92405626b1", GetHostCharacter(), 1)
 TemplateAddTo("44cd95a7-4791-4ace-bea0-a5ca4421171b", GetHostCharacter(), 1)
 TemplateAddTo("17066367-7b64-402e-951d-9dcc1407c278", GetHostCharacter(), 1)
-TemplateAddTo("0138e3a4-4576-45a8-8592-85fa9adaee59", GetHostCharacter(), 1)    
+TemplateAddTo("0138e3a4-4576-45a8-8592-85fa9adaee59", GetHostCharacter(), 1)
